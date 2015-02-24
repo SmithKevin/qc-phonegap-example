@@ -5,6 +5,10 @@
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
+    <access origin="m.quantcount.com" />
+    <feature name="QuantcastMeasurementPlugin">
+        <param name="android-package" value="com.quantcast.phonegapplugin.QuantcastMeasurementPlugin" />
+    </feature>
     <name>HelloWorld</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -14,8 +18,4 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <access origin="m.quantcount.com" />
-    <feature name="QuantcastMeasurementPlugin">
-        <param name="android-package" value="com.quantcast.phonegapplugin.QuantcastMeasurementPlugin" />
-    </feature>
 </widget>
