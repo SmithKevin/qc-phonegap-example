@@ -38,20 +38,20 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		6D82DB13BE224E219D174205 /* QuantcastMeasurementPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1452B54483284CE2BB1A72AD /* QuantcastMeasurementPlugin.m */; settings = {COMPILER_FLAGS = -fno-objc-arc; }; };
-		7BBC7DA02A98449EA3E1AE6C /* QuantcastDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A9D16ACC824EEDB19F2C6E /* QuantcastDatabase.m */; };
-		5AE0747DE06F4C698BC73267 /* QuantcastDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9550F13E73463793EFDE3C /* QuantcastDataManager.m */; };
-		918AD40BB27D40C296EDFEB3 /* QuantcastEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F8828AD7954F8187CD068F /* QuantcastEvent.m */; };
-		C9D15E283EAC4355B4D6A18D /* QuantcastMeasurement.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38AC465392484698ADCE7C /* QuantcastMeasurement.m */; };
-		A313CF3280B9405183E7E122 /* QuantcastOptOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8283E2457BF94779A49D7BCA /* QuantcastOptOutViewController.m */; };
-		5318ACE30AE84010B5A17A9A /* QuantcastPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A518C9FABBF4D139FEBA2D5 /* QuantcastPolicy.m */; };
-		DE9F969BE60C40C7940F4D7C /* QuantcastUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 040D7C45377E4BC4AA532ECD /* QuantcastUploadManager.m */; };
-		CB3ED92785784D94B9EB7860 /* QuantcastUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CCFF0A4024248B5854B62 /* QuantcastUtils.m */; };
-		D766731A90254850AF0FCE83 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD04341625F4FF2B3C86BD6 /* libsqlite3.dylib */; };
-		A6B21F7640374DC490D903FA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FE467534004E59B233AE8E /* libz.dylib */; };
-		F429601844594F1EAB659415 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0D4EB951D645A791097910 /* CoreTelephony.framework */; };
-		23C6375BD65C44A79F9F968C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED33BD8E0C94DFE8307B6DF /* SystemConfiguration.framework */; };
-		5834456FF9E943C6A2E4C79E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D837C90C4064999A09E53B6 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8D4AF4A99A2B44ADA87F2CC1 /* QuantcastMeasurementPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CFB655DE8045F78CE7E70B /* QuantcastMeasurementPlugin.m */; settings = {COMPILER_FLAGS = -fno-objc-arc; }; };
+		F9C193B027304D138AE1E9F3 /* QuantcastDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1BAD2E6D3542C5A362C9E9 /* QuantcastDatabase.m */; };
+		C669D95CF79B41ACBCADA7E3 /* QuantcastDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E91A4D03014B15BF33A468 /* QuantcastDataManager.m */; };
+		8D1F6332476747F38663C5DD /* QuantcastEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC677F61039470E8C5E366B /* QuantcastEvent.m */; };
+		37F2E794C6FE427596F36323 /* QuantcastMeasurement.m in Sources */ = {isa = PBXBuildFile; fileRef = F19EF9A5D33D4B2ABFE727F0 /* QuantcastMeasurement.m */; };
+		B585BF197B6943478419A553 /* QuantcastOptOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30CD52B1904E4598842BEF /* QuantcastOptOutViewController.m */; };
+		7ED7977F10054617BFEE0151 /* QuantcastPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E02FD7E0D34DC3B2B3E990 /* QuantcastPolicy.m */; };
+		2ABFFB69AA8E4910A5715C91 /* QuantcastUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADDBEC40B604880B124FD10 /* QuantcastUploadManager.m */; };
+		0C2A99E4E04B4756B3CE2258 /* QuantcastUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F8CB99F0C84D93BF611F4B /* QuantcastUtils.m */; };
+		DAA3A47A5496479E8D018003 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B77F3A9B6A4E37AAFA91F4 /* libsqlite3.dylib */; };
+		8E1A8BC6C7134CE0AA95D330 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0389106872514DA9887E0A86 /* libz.dylib */; };
+		22AE35DAFF7F400ABD520F5C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28814CAA2EEA4589A8B1B587 /* CoreTelephony.framework */; };
+		B2001A5020744D27B22C51C2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6537EEF442964C66BBCFF8D6 /* SystemConfiguration.framework */; };
+		A9F245CB52BD4287A33C7CAE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8689E7FAC2E4C2FB0B47BE2 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,34 +116,34 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "HelloWorld/config.xml"; sourceTree = "<group>"; };
-		1452B54483284CE2BB1A72AD /* QuantcastMeasurementPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastMeasurementPlugin.m"; path = "com.quantcast.phonegapplugin/QuantcastMeasurementPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		F9A9D16ACC824EEDB19F2C6E /* QuantcastDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastDatabase.m"; path = "com.quantcast.phonegapplugin/QuantcastDatabase.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		AC9550F13E73463793EFDE3C /* QuantcastDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastDataManager.m"; path = "com.quantcast.phonegapplugin/QuantcastDataManager.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		40F8828AD7954F8187CD068F /* QuantcastEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastEvent.m"; path = "com.quantcast.phonegapplugin/QuantcastEvent.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		CE38AC465392484698ADCE7C /* QuantcastMeasurement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastMeasurement.m"; path = "com.quantcast.phonegapplugin/QuantcastMeasurement.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		8283E2457BF94779A49D7BCA /* QuantcastOptOutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastOptOutViewController.m"; path = "com.quantcast.phonegapplugin/QuantcastOptOutViewController.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		0A518C9FABBF4D139FEBA2D5 /* QuantcastPolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastPolicy.m"; path = "com.quantcast.phonegapplugin/QuantcastPolicy.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		040D7C45377E4BC4AA532ECD /* QuantcastUploadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastUploadManager.m"; path = "com.quantcast.phonegapplugin/QuantcastUploadManager.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		6C7CCFF0A4024248B5854B62 /* QuantcastUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastUtils.m"; path = "com.quantcast.phonegapplugin/QuantcastUtils.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		567616D9946245A0937EF902 /* QuantcastMeasurementPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastMeasurementPlugin.h"; path = "com.quantcast.phonegapplugin/QuantcastMeasurementPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		381A543B899D474FAFA56803 /* QuantcastNetworkReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastNetworkReachability.h"; path = "com.quantcast.phonegapplugin/QuantcastNetworkReachability.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		3B22A3ADB3484C0B95FEA5BF /* QuantcastParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastParameters.h"; path = "com.quantcast.phonegapplugin/QuantcastParameters.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		3871CEF2339049D2B79C2E62 /* QuantcastOptOutDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastOptOutDelegate.h"; path = "com.quantcast.phonegapplugin/QuantcastOptOutDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		E0F2573DFFB24E22B735E9A6 /* QuantcastEventLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastEventLogger.h"; path = "com.quantcast.phonegapplugin/QuantcastEventLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		202C7EF0D74341AAB427950B /* QuantcastMeasurement+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastMeasurement+Internal.h"; path = "com.quantcast.phonegapplugin/QuantcastMeasurement+Internal.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		2863924BDB9943AC8C159CAB /* QuantcastDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastDatabase.h"; path = "com.quantcast.phonegapplugin/QuantcastDatabase.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		8D26A07FA7E74647B680E20A /* QuantcastDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastDataManager.h"; path = "com.quantcast.phonegapplugin/QuantcastDataManager.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		47DD307B5D744282A1D430D1 /* QuantcastEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastEvent.h"; path = "com.quantcast.phonegapplugin/QuantcastEvent.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		62C7C919C2614C0581F9AEE0 /* QuantcastMeasurement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastMeasurement.h"; path = "com.quantcast.phonegapplugin/QuantcastMeasurement.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		D66EF5C4C1AB4AEFA653540E /* QuantcastOptOutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastOptOutViewController.h"; path = "com.quantcast.phonegapplugin/QuantcastOptOutViewController.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		27CF5D42B5C04548A1029E19 /* QuantcastPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastPolicy.h"; path = "com.quantcast.phonegapplugin/QuantcastPolicy.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		C97EA66CBC494196A3457EB7 /* QuantcastUploadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastUploadManager.h"; path = "com.quantcast.phonegapplugin/QuantcastUploadManager.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		D86D7E508AE44C58AB5F9C18 /* QuantcastUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastUtils.h"; path = "com.quantcast.phonegapplugin/QuantcastUtils.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		FBD04341625F4FF2B3C86BD6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsqlite3.dylib"; path = "usr/lib/libsqlite3.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
-		C3FE467534004E59B233AE8E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
-		8F0D4EB951D645A791097910 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		2ED33BD8E0C94DFE8307B6DF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		1D837C90C4064999A09E53B6 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AdSupport.framework"; path = "System/Library/Frameworks/AdSupport.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		B7CFB655DE8045F78CE7E70B /* QuantcastMeasurementPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastMeasurementPlugin.m"; path = "com.quantcast.phonegapplugin/QuantcastMeasurementPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		0A1BAD2E6D3542C5A362C9E9 /* QuantcastDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastDatabase.m"; path = "com.quantcast.phonegapplugin/QuantcastDatabase.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		48E91A4D03014B15BF33A468 /* QuantcastDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastDataManager.m"; path = "com.quantcast.phonegapplugin/QuantcastDataManager.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		1FC677F61039470E8C5E366B /* QuantcastEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastEvent.m"; path = "com.quantcast.phonegapplugin/QuantcastEvent.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		F19EF9A5D33D4B2ABFE727F0 /* QuantcastMeasurement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastMeasurement.m"; path = "com.quantcast.phonegapplugin/QuantcastMeasurement.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		0E30CD52B1904E4598842BEF /* QuantcastOptOutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastOptOutViewController.m"; path = "com.quantcast.phonegapplugin/QuantcastOptOutViewController.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		F2E02FD7E0D34DC3B2B3E990 /* QuantcastPolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastPolicy.m"; path = "com.quantcast.phonegapplugin/QuantcastPolicy.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		4ADDBEC40B604880B124FD10 /* QuantcastUploadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastUploadManager.m"; path = "com.quantcast.phonegapplugin/QuantcastUploadManager.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		58F8CB99F0C84D93BF611F4B /* QuantcastUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QuantcastUtils.m"; path = "com.quantcast.phonegapplugin/QuantcastUtils.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		2BE0BFA66F574681AA101FB2 /* QuantcastMeasurementPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastMeasurementPlugin.h"; path = "com.quantcast.phonegapplugin/QuantcastMeasurementPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D003B3E87A9442A99B26E0EA /* QuantcastNetworkReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastNetworkReachability.h"; path = "com.quantcast.phonegapplugin/QuantcastNetworkReachability.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		50BFC6D9A1E54450AA9A7690 /* QuantcastParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastParameters.h"; path = "com.quantcast.phonegapplugin/QuantcastParameters.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		906410353EB2449B84AC0219 /* QuantcastOptOutDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastOptOutDelegate.h"; path = "com.quantcast.phonegapplugin/QuantcastOptOutDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9B0F72B37F9B4A459AE08FD6 /* QuantcastEventLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastEventLogger.h"; path = "com.quantcast.phonegapplugin/QuantcastEventLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		6A24A3E676A14D91A9D5CB5F /* QuantcastMeasurement+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastMeasurement+Internal.h"; path = "com.quantcast.phonegapplugin/QuantcastMeasurement+Internal.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		6B583CBE3B784B37A2234416 /* QuantcastDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastDatabase.h"; path = "com.quantcast.phonegapplugin/QuantcastDatabase.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		14BDA27CA7BA48F79A7EBABB /* QuantcastDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastDataManager.h"; path = "com.quantcast.phonegapplugin/QuantcastDataManager.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		AE840B4D3B8045D9A1303195 /* QuantcastEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastEvent.h"; path = "com.quantcast.phonegapplugin/QuantcastEvent.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		BAF91428E1834CB0A395D178 /* QuantcastMeasurement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastMeasurement.h"; path = "com.quantcast.phonegapplugin/QuantcastMeasurement.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		6655443FD7EB414B8D1B323A /* QuantcastOptOutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastOptOutViewController.h"; path = "com.quantcast.phonegapplugin/QuantcastOptOutViewController.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		32C8CA42250A4E95886D0D74 /* QuantcastPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastPolicy.h"; path = "com.quantcast.phonegapplugin/QuantcastPolicy.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		367C725B55234C828B27FB80 /* QuantcastUploadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastUploadManager.h"; path = "com.quantcast.phonegapplugin/QuantcastUploadManager.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		2918CE5B2B9F46668F21DF92 /* QuantcastUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuantcastUtils.h"; path = "com.quantcast.phonegapplugin/QuantcastUtils.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		42B77F3A9B6A4E37AAFA91F4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsqlite3.dylib"; path = "usr/lib/libsqlite3.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		0389106872514DA9887E0A86 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		28814CAA2EEA4589A8B1B587 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		6537EEF442964C66BBCFF8D6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		C8689E7FAC2E4C2FB0B47BE2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AdSupport.framework"; path = "System/Library/Frameworks/AdSupport.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,11 +156,11 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
-				D766731A90254850AF0FCE83 /* libsqlite3.dylib in Frameworks */,
-				A6B21F7640374DC490D903FA /* libz.dylib in Frameworks */,
-				F429601844594F1EAB659415 /* CoreTelephony.framework in Frameworks */,
-				23C6375BD65C44A79F9F968C /* SystemConfiguration.framework in Frameworks */,
-				5834456FF9E943C6A2E4C79E /* AdSupport.framework in Frameworks */,
+				DAA3A47A5496479E8D018003 /* libsqlite3.dylib in Frameworks */,
+				8E1A8BC6C7134CE0AA95D330 /* libz.dylib in Frameworks */,
+				22AE35DAFF7F400ABD520F5C /* CoreTelephony.framework in Frameworks */,
+				B2001A5020744D27B22C51C2 /* SystemConfiguration.framework in Frameworks */,
+				A9F245CB52BD4287A33C7CAE /* AdSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,11 +254,11 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				FBD04341625F4FF2B3C86BD6 /* libsqlite3.dylib */,
-				C3FE467534004E59B233AE8E /* libz.dylib */,
-				8F0D4EB951D645A791097910 /* CoreTelephony.framework */,
-				2ED33BD8E0C94DFE8307B6DF /* SystemConfiguration.framework */,
-				1D837C90C4064999A09E53B6 /* AdSupport.framework */,
+				42B77F3A9B6A4E37AAFA91F4 /* libsqlite3.dylib */,
+				0389106872514DA9887E0A86 /* libz.dylib */,
+				28814CAA2EEA4589A8B1B587 /* CoreTelephony.framework */,
+				6537EEF442964C66BBCFF8D6 /* SystemConfiguration.framework */,
+				C8689E7FAC2E4C2FB0B47BE2 /* AdSupport.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -274,29 +274,29 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				1452B54483284CE2BB1A72AD /* QuantcastMeasurementPlugin.m */,
-				F9A9D16ACC824EEDB19F2C6E /* QuantcastDatabase.m */,
-				AC9550F13E73463793EFDE3C /* QuantcastDataManager.m */,
-				40F8828AD7954F8187CD068F /* QuantcastEvent.m */,
-				CE38AC465392484698ADCE7C /* QuantcastMeasurement.m */,
-				8283E2457BF94779A49D7BCA /* QuantcastOptOutViewController.m */,
-				0A518C9FABBF4D139FEBA2D5 /* QuantcastPolicy.m */,
-				040D7C45377E4BC4AA532ECD /* QuantcastUploadManager.m */,
-				6C7CCFF0A4024248B5854B62 /* QuantcastUtils.m */,
-				567616D9946245A0937EF902 /* QuantcastMeasurementPlugin.h */,
-				381A543B899D474FAFA56803 /* QuantcastNetworkReachability.h */,
-				3B22A3ADB3484C0B95FEA5BF /* QuantcastParameters.h */,
-				3871CEF2339049D2B79C2E62 /* QuantcastOptOutDelegate.h */,
-				E0F2573DFFB24E22B735E9A6 /* QuantcastEventLogger.h */,
-				202C7EF0D74341AAB427950B /* QuantcastMeasurement+Internal.h */,
-				2863924BDB9943AC8C159CAB /* QuantcastDatabase.h */,
-				8D26A07FA7E74647B680E20A /* QuantcastDataManager.h */,
-				47DD307B5D744282A1D430D1 /* QuantcastEvent.h */,
-				62C7C919C2614C0581F9AEE0 /* QuantcastMeasurement.h */,
-				D66EF5C4C1AB4AEFA653540E /* QuantcastOptOutViewController.h */,
-				27CF5D42B5C04548A1029E19 /* QuantcastPolicy.h */,
-				C97EA66CBC494196A3457EB7 /* QuantcastUploadManager.h */,
-				D86D7E508AE44C58AB5F9C18 /* QuantcastUtils.h */,
+				B7CFB655DE8045F78CE7E70B /* QuantcastMeasurementPlugin.m */,
+				0A1BAD2E6D3542C5A362C9E9 /* QuantcastDatabase.m */,
+				48E91A4D03014B15BF33A468 /* QuantcastDataManager.m */,
+				1FC677F61039470E8C5E366B /* QuantcastEvent.m */,
+				F19EF9A5D33D4B2ABFE727F0 /* QuantcastMeasurement.m */,
+				0E30CD52B1904E4598842BEF /* QuantcastOptOutViewController.m */,
+				F2E02FD7E0D34DC3B2B3E990 /* QuantcastPolicy.m */,
+				4ADDBEC40B604880B124FD10 /* QuantcastUploadManager.m */,
+				58F8CB99F0C84D93BF611F4B /* QuantcastUtils.m */,
+				2BE0BFA66F574681AA101FB2 /* QuantcastMeasurementPlugin.h */,
+				D003B3E87A9442A99B26E0EA /* QuantcastNetworkReachability.h */,
+				50BFC6D9A1E54450AA9A7690 /* QuantcastParameters.h */,
+				906410353EB2449B84AC0219 /* QuantcastOptOutDelegate.h */,
+				9B0F72B37F9B4A459AE08FD6 /* QuantcastEventLogger.h */,
+				6A24A3E676A14D91A9D5CB5F /* QuantcastMeasurement+Internal.h */,
+				6B583CBE3B784B37A2234416 /* QuantcastDatabase.h */,
+				14BDA27CA7BA48F79A7EBABB /* QuantcastDataManager.h */,
+				AE840B4D3B8045D9A1303195 /* QuantcastEvent.h */,
+				BAF91428E1834CB0A395D178 /* QuantcastMeasurement.h */,
+				6655443FD7EB414B8D1B323A /* QuantcastOptOutViewController.h */,
+				32C8CA42250A4E95886D0D74 /* QuantcastPolicy.h */,
+				367C725B55234C828B27FB80 /* QuantcastUploadManager.h */,
+				2918CE5B2B9F46668F21DF92 /* QuantcastUtils.h */,
 			);
 			name = Plugins;
 			path = "HelloWorld/Plugins";
@@ -491,15 +491,15 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				6D82DB13BE224E219D174205 /* QuantcastMeasurementPlugin.m in Sources */,
-				7BBC7DA02A98449EA3E1AE6C /* QuantcastDatabase.m in Sources */,
-				5AE0747DE06F4C698BC73267 /* QuantcastDataManager.m in Sources */,
-				918AD40BB27D40C296EDFEB3 /* QuantcastEvent.m in Sources */,
-				C9D15E283EAC4355B4D6A18D /* QuantcastMeasurement.m in Sources */,
-				A313CF3280B9405183E7E122 /* QuantcastOptOutViewController.m in Sources */,
-				5318ACE30AE84010B5A17A9A /* QuantcastPolicy.m in Sources */,
-				DE9F969BE60C40C7940F4D7C /* QuantcastUploadManager.m in Sources */,
-				CB3ED92785784D94B9EB7860 /* QuantcastUtils.m in Sources */,
+				8D4AF4A99A2B44ADA87F2CC1 /* QuantcastMeasurementPlugin.m in Sources */,
+				F9C193B027304D138AE1E9F3 /* QuantcastDatabase.m in Sources */,
+				C669D95CF79B41ACBCADA7E3 /* QuantcastDataManager.m in Sources */,
+				8D1F6332476747F38663C5DD /* QuantcastEvent.m in Sources */,
+				37F2E794C6FE427596F36323 /* QuantcastMeasurement.m in Sources */,
+				B585BF197B6943478419A553 /* QuantcastOptOutViewController.m in Sources */,
+				7ED7977F10054617BFEE0151 /* QuantcastPolicy.m in Sources */,
+				2ABFFB69AA8E4910A5715C91 /* QuantcastUploadManager.m in Sources */,
+				0C2A99E4E04B4756B3CE2258 /* QuantcastUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

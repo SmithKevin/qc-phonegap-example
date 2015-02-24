@@ -19,10 +19,6 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
-    <access origin="m.quantcount.com" />
-    <feature name="QuantcastMeasurementPlugin">
-        <param name="ios-package" value="QuantcastMeasurementPlugin" />
-    </feature>
     <name>HelloWorld</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -32,4 +28,8 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <access origin="m.quantcount.com" />
+    <feature name="QuantcastMeasurementPlugin">
+        <param name="ios-package" value="QuantcastMeasurementPlugin" />
+    </feature>
 </widget>

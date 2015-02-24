@@ -33,8 +33,8 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
+    	      QuantcastMeasurement.setUpQuantcastMeasurement('0zc5v23gnvnbid2y-hmmzpb10u0ejwb4p', 'User label', ['abel1', 'label2'] );
         app.receivedEvent('deviceready');
-        QuantcastMeasurement.setUpQuantcastMeasurement("0zc5v23gnvnbid2y-qvc9sq4csxwdtztk");
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

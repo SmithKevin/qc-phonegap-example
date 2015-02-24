@@ -11,7 +11,8 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "com.quantcast.phonegapplugin": "1.1.0"
+    "com.quantcast.phonegapplugin": "1.1.0",
+    "com.google.playservices": "19.0.0"
 }
 // BOTTOM OF METADATA
 });
