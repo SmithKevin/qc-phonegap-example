@@ -28,18 +28,18 @@ var app = {
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
-    // deviceready Event Handler
-    //
-    // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicity call 'app.receivedEvent(...);'
+   // Consolidated setup.   This is the easiest way to start the Quantcast SDK.
     onDeviceReady: function() {
-        QuantcastMeasurement.setDebugLogging(true);
-        QuantcastMeasurement.uploadEventCount(100);
+        QuantcastMeasurement.setDebugLogging(true);   //Be sure this is not left on in production builds
+        QuantcastMeasurement.uploadEventCount(100);   //Setting this value is almost never required.  This is really just for testing
         QuantcastMeasurement.setUpQuantcastMeasurement('0zc5v23gnvnbid2y-hmmzpb10u0ejwb4p', 'User label', ['abel1', 'label2'] );
         
         app.receivedEvent('deviceready');
     },
     
+    /***These functions are used if you are using the manual setup.   Except in complex audience labeling, the above consolidated method should be used.  
+    /   You should NEVER use both setUpQuantcastMeasurement and beginMeasurementSession.
+    */
     onDeviceReadyManual:function() {
         document.addEventListener('pause', app.onPause, false);
         document.addEventListener('resume', app.onResume, false);
@@ -61,7 +61,8 @@ var app = {
     onResume: function() {
         QuantcastMeasurement.resumeMeasurementSession(['label1', 'label2']);
     },
-    
+    /*** End manual setup ***/
+
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         var parentElement = document.getElementById(id);
@@ -82,13 +83,14 @@ var app = {
         alert("IS Opted out: \r\n"+optedOut );
     },
         
-        
+    //event logging
     logEvent: function(){
         QuantcastMeasurement.logEvent('ButtonPress', ['label1', 'label2']);
     },
-        
+    //updating user identifier.  This is especially useful in measuring cross platform usage of your app.
+    //any username or email identifiers are immediately one-way hashed and the original value never leaves the device or is stored.   
     changeUser: function(){
-        QuantcastMeasurement.recordUserIdentifier(app.hashcallback, 22, 5);
+        QuantcastMeasurement.recordUserIdentifier(app.hashcallback, 'username', null);
     },
         
     displayOptOut: function(){
